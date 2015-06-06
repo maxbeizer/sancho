@@ -22,6 +22,6 @@ Lita.configure do |config|
   config.robot.name = ENV['LITA_NAME']
 
   # Redis
-  config.redis.host = ENV['REDIS_URL']
-  config.redis.port = ENV['REDIS_PORT']
+  config.redis[:url] = ENV['REDIS_URL']
+  config.http.port   = ENV['REDIS_PORT']
 end
