@@ -27,6 +27,8 @@ Lita.configure do |config|
 
   config.http.port = ENV['PORT']
 
+  config.robot.admins =  %w( U04MYR638 )
+
   config.handlers.weather.api_key = ENV['WUNDERGROUND_KEY']
   config.handlers.keepalive.url   = ENV['HEROKU_URL']
 end
