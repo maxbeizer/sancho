@@ -25,6 +25,8 @@ Lita.configure do |config|
   config.redis[:url]  = ENV['REDIS_URL']
   config.redis[:port] = ENV['REDIS_PORT']
 
+  config.http.port = ENV['PORT']
+
   config.handlers.weather.api_key = ENV['WUNDERGROUND_KEY']
   config.handlers.keepalive.url   = ENV['HEROKU_URL']
 end
