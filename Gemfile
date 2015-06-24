@@ -6,3 +6,4 @@ gem 'dotenv'
 
 gem 'lita-keepalive'
 gem 'lita-weather'
+gem 'lita-karma'
