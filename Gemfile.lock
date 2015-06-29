@@ -1,10 +1,3 @@
-GIT
-  remote: git://github.com/maxbeizer/lita-should-i.git
-  revision: 27e2383c43e02c567a05df970cdcce6182e6748e
-  specs:
-    lita-should-i (0.1.0)
-      lita (>= 4.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,6 +29,8 @@ GEM
       lita (>= 4.0)
     lita-keepalive (0.0.2)
       lita (~> 4.0)
+    lita-should-i (0.1.0)
+      lita (>= 4.3)
     lita-slack (1.4.0)
       eventmachine
       faraday
@@ -68,7 +63,7 @@ DEPENDENCIES
   lita
   lita-karma
   lita-keepalive
-  lita-should-i!
+  lita-should-i
   lita-slack
   lita-weather
 
