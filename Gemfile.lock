@@ -29,8 +29,6 @@ GEM
       lita (>= 4.3)
     lita-karma (3.0.2)
       lita (>= 4.0)
-    lita-keepalive (0.0.2)
-      lita (~> 4.0)
     lita-should-i (0.1.0)
       lita (>= 4.3)
     lita-slack (1.4.0)
@@ -67,11 +65,10 @@ DEPENDENCIES
   lita
   lita-burn-notice
   lita-karma
-  lita-keepalive
   lita-should-i
   lita-slack
   lita-weather
   lita-wotd
 
 BUNDLED WITH
-   1.10.4
+   1.11.2
