@@ -30,4 +30,5 @@ Lita.configure do |config|
   config.robot.admins =  %w( U04MYR638 )
 
   config.handlers.weather.api_key = ENV['WUNDERGROUND_KEY']
+  config.robot.alias = ENV.fetch('ROBOT_ALIAS', nil)
 end
