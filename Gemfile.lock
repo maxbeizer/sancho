@@ -39,7 +39,7 @@ GEM
       multi_json
     lita-weather (0.0.4)
       lita (>= 2.3)
-    lita-wotd (0.1.0)
+    lita-wotd (1.0.0)
       lita (>= 4.4)
     multi_json (1.11.1)
     multipart-post (2.0.0)
@@ -68,7 +68,7 @@ DEPENDENCIES
   lita-should-i
   lita-slack
   lita-weather
-  lita-wotd
+  lita-wotd (= 1.0.0)
 
 BUNDLED WITH
    1.11.2
