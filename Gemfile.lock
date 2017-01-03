@@ -32,6 +32,8 @@ GEM
       thor (>= 0.18.1)
     lita-burn-notice (0.1.1)
       lita (>= 4.3)
+    lita-half-marathon-trainer (0.1.0)
+      lita (>= 4.7)
     lita-karma (3.0.2)
       lita (>= 4.0)
     lita-should-i (0.1.0)
@@ -71,6 +73,7 @@ DEPENDENCIES
   dotenv
   lita
   lita-burn-notice
+  lita-half-marathon-trainer (= 0.1.0)
   lita-karma
   lita-should-i
   lita-slack
@@ -79,4 +82,4 @@ DEPENDENCIES
   lita-wotd (= 1.0.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.6
